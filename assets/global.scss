@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('./fonts/11528.ttf'); 
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+.alt-font{
+  font-family: "Century Gothic", sans-serif
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 35px;
+}
+h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.v-btn--disabled {
+  background-color: rgb(2, 2, 2) !important;
+  color: #fff !important;
+}
